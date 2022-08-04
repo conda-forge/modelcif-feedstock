@@ -19,7 +19,7 @@ requirements:
     - pip
     - python >=3.6
   run:
-    - ihm >=0.31
+    - ihm >=0.34
     - python >=3.6
 
 test:
