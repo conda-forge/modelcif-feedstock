@@ -1,11 +1,11 @@
-About modelcif
-==============
+About modelcif-feedstock
+========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/modelcif-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/ihmwg/python-modelcif
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/modelcif-feedstock/blob/main/LICENSE.txt)
 
 Summary: Package for handling ModelCIF mmCIF and BinaryCIF files
 
