@@ -18,6 +18,7 @@ requirements:
   host:
     - pip
     - python >=3.6
+    - setuptools
   run:
     - ihm >=0.34
     - python >=3.6
