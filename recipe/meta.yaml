@@ -1,5 +1,5 @@
 {% set name = "modelcif" %}
-{% set version = "1.0" %}
+{% set version = "1.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/modelcif-{{ version }}.tar.gz
-  sha256: e8375bc502a73dcfab0b7fbdd454d67d393bbb8969981eb52199d77192a3de56
+  sha256: e7055c5da9b9da0c7d2358c792b61a147e1f7d5756ecbdafccfd15cd9f3b66e6
 
 build:
   noarch: python
