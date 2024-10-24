@@ -20,7 +20,7 @@ requirements:
     - python >=3.6
     - setuptools
   run:
-    - ihm >=0.34
+    - ihm >=1.7
     - python >=3.6
 
 test:
