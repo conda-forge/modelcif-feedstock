@@ -15,10 +15,10 @@ Documentation: https://python-modelcif.readthedocs.io/
 
 This is a Python package to assist in handling mmCIF
 (http://mmcif.wwpdb.org/) and BinaryCIF
-(https://github.com/dsehnal/BinaryCIF) files compliant with the
+(https://github.com/molstar/BinaryCIF) files compliant with the
 ModelCIF extension
 (https://mmcif.wwpdb.org/dictionaries/mmcif_ma.dic/Index/).
-It works with Python 2.7 or Python 3.
+It works with Python 3.6 or later.
 
 Please see the documentation at https://python-modelcif.readthedocs.org/
 or some worked examples at
