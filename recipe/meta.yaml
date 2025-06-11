@@ -1,5 +1,5 @@
 {% set name = "modelcif" %}
-{% set version = "1.3" %}
+{% set version = "1.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/modelcif-{{ version }}.tar.gz
-  sha256: d751f553ec225fa650a246c5739027b1b482f87a69cee406465e9b7f0b220de3
+  sha256: fca5c1da5eb25fff3c9cd61b618fa247569f8e90cbb64774740601155d4add6e
 
 build:
   noarch: python
@@ -20,7 +20,7 @@ requirements:
     - python {{ python_min }}
     - setuptools
   run:
-    - ihm >=1.7
+    - ihm >=2.6
     - python >={{ python_min }}
 
 test:
@@ -40,10 +40,10 @@ about:
   description: |
     This is a Python package to assist in handling mmCIF
     (http://mmcif.wwpdb.org/) and BinaryCIF
-    (https://github.com/dsehnal/BinaryCIF) files compliant with the
+    (https://github.com/molstar/BinaryCIF) files compliant with the
     ModelCIF extension
     (https://mmcif.wwpdb.org/dictionaries/mmcif_ma.dic/Index/).
-    It works with Python 2.7 or Python 3.
+    It works with Python 3.6 or later.
 
     Please see the documentation at https://python-modelcif.readthedocs.org/
     or some worked examples at
