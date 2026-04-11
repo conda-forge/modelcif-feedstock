@@ -1,13 +1,13 @@
 {% set name = "modelcif" %}
-{% set version = "1.6" %}
+{% set version = "1.7" %}
 
 package:
   name: {{ name|lower }}
-  version: {{ version }}
+  version: "{{ version }}"
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/modelcif-{{ version }}.tar.gz
-  sha256: b1bf0751f0e2d1ea6da7a0a8a92efd2754428ae50bc3bfbff8e015183e978b19
+  sha256: 440b7ae64659e5533cba4cc04bdde8f63c05bac308904d809a790d8ee1799ae0
 
 build:
   noarch: python
@@ -20,7 +20,7 @@ requirements:
     - python {{ python_min }}
     - setuptools
   run:
-    - ihm >=2.6
+    - ihm >=2.10
     - python >={{ python_min }}
 
 test:
